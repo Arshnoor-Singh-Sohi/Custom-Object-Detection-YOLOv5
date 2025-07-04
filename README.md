@@ -47,38 +47,6 @@ This notebook provides comprehensive coverage of the following machine learning 
 - **Multi-scale Detection**: Handling objects of different sizes effectively
 - **Data Preprocessing**: Image resizing, normalization, and batching strategies
 
-## 📂 Repository Structure
-
-```
-Custom-Object-Detection-YOLOv5/
-├── CUSTOM_YOLO_v5.ipynb           # Main training and inference notebook
-├── README.md                      # Comprehensive project documentation (this file)
-├── data/                          # Dataset directory
-│   ├── train/                     # Training images and labels
-│   │   ├── images/               # Training images (.jpg, .png)
-│   │   └── labels/               # Training labels (.txt files)
-│   ├── val/                      # Validation images and labels
-│   │   ├── images/               # Validation images
-│   │   └── labels/               # Validation labels
-│   ├── test/                     # Test images for final evaluation
-│   │   └── images/               # Test images (labels optional)
-│   └── data.yaml                 # Dataset configuration file
-├── models/                       # Model configuration files
-│   └── custom_yolov5s.yaml      # Custom model architecture definition
-├── runs/                         # Training and inference results
-│   ├── train/                    # Training experiment results
-│   │   └── exp/                  # Individual experiment folders
-│   │       ├── weights/          # Saved model weights
-│   │       ├── results.png       # Training metrics visualization
-│   │       └── confusion_matrix.png # Confusion matrix
-│   └── detect/                   # Inference results
-│       └── exp/                  # Detection experiment folders
-├── weights/                      # Pre-trained and custom model weights
-│   ├── yolov5s.pt               # Pre-trained YOLOv5s weights
-│   └── best_custom.pt           # Best custom trained weights
-└── requirements.txt              # Python dependencies
-```
-
 ## 🚀 How to Run
 
 ### Prerequisites
